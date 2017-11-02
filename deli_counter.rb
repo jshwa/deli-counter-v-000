@@ -8,10 +8,10 @@ def line(katz_deli)
     line = ""
     count = 0
     while count < katz_deli.length
-      line << "#{count+1}. #{katz_deli[count]} "
+      line << " #{count+1}. #{katz_deli[count]}"
       count +=1
     end
-    puts "The line is currently: #{line}"
+    puts "The line is currently: #{line}."
   end
 end
 
@@ -24,7 +24,7 @@ def now_serving(katz_deli)
   if katz_deli.length == 0
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{katz_deli[0]}"
+    puts "Currently serving #{katz_deli[0]}."
     katz_deli.unshift[0]
   end
 end
