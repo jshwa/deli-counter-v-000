@@ -8,10 +8,10 @@ def line(katz_deli)
     line = ""
     count = 0
     while count < katz_deli.length
-      line << "#{count+1}. #{katz_deli[count} "
+      line << "#{count+1}. #{katz_deli[count]} "
       count +=1
     end
-    puts "The line is currently: #{line}"  
+    puts "The line is currently: #{line}"
   end
 end
 
